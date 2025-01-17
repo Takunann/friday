@@ -24,7 +24,7 @@ public class P_InsertAction extends P_Action {
 		PokemartDAO dao=new PokemartDAO();
 		dao.insert(p);
 
-		//リクエスト属性の設定。検索を実行した結果をリクエストに設定。
+		//リクエスト属性の設定。検索を実行した結果をリクエストに設定。hosokushitayo
 		List<Pokemart> list=dao.search("");
 		request.setAttribute("list", list);
 
