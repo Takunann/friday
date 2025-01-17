@@ -28,7 +28,7 @@ public class P_InsertAction extends P_Action {
 		List<Pokemart> list=dao.search("");
 		request.setAttribute("list", list);
 
-		//SearchActionの場合と同じく、フォワード先であるp_list.jspを返します。
+		//SearchActionの場合と同じく、フォワード先であるp_list.jspを返します。補足足し
 		return "p_list.jsp";
 	}
 }
